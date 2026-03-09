@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "910b": {
+      "host": "192.168.9.116",
+      "user": "root",
+      "password": "Ascend116LQ",
+      "remote_dir": "/home/z00585316/mindspore",
+      "build_cmd": "bash build.sh -e ascend -j32",
+      "description": "Ascend 910B dev server"
+    }
+  },
+  "default": "910b"
+}
